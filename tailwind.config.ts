@@ -8,7 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-
+      gridTemplateColumns: {
+        'layout': '1fr 2fr',
+      }
     },
   },
   plugins: [],
