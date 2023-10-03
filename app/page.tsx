@@ -1,5 +1,4 @@
 'use client';
-import { useRef } from 'react';
 import Sidebar from './Components/Layout/Sidebar';
 import SectionWrapper from './Components/Layout/Section';
 import About from './Components/Section/About';

@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        font: '#8b9dbb',
+        decoration: '#24d2d0'
+      },
+      backgroundColor: {
+        body: '#0f172a'
+      },
       gridTemplateColumns: {
         'layout': '1fr 2fr',
       }
