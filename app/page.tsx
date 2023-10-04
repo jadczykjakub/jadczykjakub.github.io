@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <div>
-        <div className='grid md:grid-cols-layout gap-16 px-4 md:px-8 lg:px-24 '>
+        <div className='grid md:grid-cols-layout gap-4 md:gap-16 px-4  md:px-8 lg:px-24 '>
           <Sidebar />
           <SectionWrapper>
             <About />

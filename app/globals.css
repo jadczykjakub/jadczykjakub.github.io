@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.dupa{
-  color: red;
-  opacity: .5;
+.link_active{
+  color: #e2e8f0;
 }
+
+.link_active span{
+  transform: translateX(5px);
+}
+
