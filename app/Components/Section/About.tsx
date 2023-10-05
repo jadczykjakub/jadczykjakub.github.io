@@ -6,7 +6,7 @@ export default function About() {
     <div id={Section.About}>
       <h4 className='text-xl text-fontBright font-bold '>About me</h4>
       <p className='mt-2'>
-        "I began my journey in IT as a project manager in{' '}
+        I began my journey in IT as a project manager in{' '}
         <span className='text-fontBright'> 2019</span>, but I quickly realized
         that coding brings me more satisfaction. I put in a lot of effort to
         catch up, and within six months at the same company, I started working

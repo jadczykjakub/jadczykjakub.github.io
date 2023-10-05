@@ -24,6 +24,7 @@ export default function Sidebar() {
             <div className='hidden md:block mt-6'>
               <NavItem sectionDetail={Section.About} />
               <NavItem sectionDetail={Section.Experience} />
+              <NavItem sectionDetail={Section.Projects} />
             </div>
           </div>
 

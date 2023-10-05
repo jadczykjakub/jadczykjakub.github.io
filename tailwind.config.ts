@@ -14,7 +14,8 @@ const config: Config = {
         decoration: '#24d2d0'
       },
       backgroundColor: {
-        body: '#0f172a'
+        body: '#0f172a',
+        decorationLight: '#122c3f'
       },
       gridTemplateColumns: {
         'layout': '1fr 2fr',
