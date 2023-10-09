@@ -1,14 +1,16 @@
 import React from 'react';
 import ArrowUpRight from '../Assets/svg/ArrowUpRight.svg';
 import Image from 'next/image';
+import ListItem from './ListItem';
 
 export interface IExperienceExample {
-  title: string;
+  title: string;  
   company?: string;
-  description: string;
+  description?: string;
+  listDescription?: string[];
   techStack: string[];
   date?: string;
-  link: string;
+  link?: string;
   img?: string;
 }
 
@@ -42,6 +44,13 @@ export default function ExperienceExample(props: IExperienceExample) {
           </h5>
           {props.company && <p>{props.company}</p>}
           <p>{props.description}</p>
+          {props.listDescription && (
+            <ul>
+              {props.listDescription.map((item, index) => (
+                <ListItem text={item} key={index} />
+              ))}
+            </ul>
+          )}
 
           <div className='flex flex-wrap gap-2 mt-2'>
             {props.techStack?.map((item, index) => (

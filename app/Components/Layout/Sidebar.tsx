@@ -17,8 +17,8 @@ export default function Sidebar() {
               Frontend developer
             </h2>
             <p className='mt-3'>
-              I have 3 years of experience in frontend development. Right now
-              looking for new challenges.{' '}
+              I have 3 years of experience in frontend development and working
+              with the client. Right now looking for new challenges.{' '}
             </p>
 
             <div className='hidden md:block mt-6'>

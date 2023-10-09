@@ -20,8 +20,12 @@ export default function About() {
         technologies.
       </p>
       <p className='mt-2'>
-        When I'm not at the computer, I do a lot of sports, travel or spend time
-        with my wife, daughter and 2 cats.
+        Im a very social person and I have always enjoyed{' '}
+        <span className='text-fontBright'>working with client</span>. Besides my
+        technical skills, I'm also working on improving my soft skills to
+        enhance my effectiveness in client interactions. I have a passion for
+        foreign languages and am currently learning
+        <span className='text-fontBright'> German</span>.
       </p>
     </div>
   );

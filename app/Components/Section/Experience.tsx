@@ -1,12 +1,19 @@
 import { Section } from '@/enums';
 import React from 'react';
 import ExperienceExample, { IExperienceExample } from '../ExperienceExample';
+import exp from 'constants';
 
 const experiences: IExperienceExample[] = [
   {
     title: 'Frontend developer',
     date: '2022 DEC - 2023 AUG',
-    description: 'I was working as a sadasdasdasda',
+    listDescription: [
+      'Complex web application',
+      'Agile',
+      'Responsibility for Frontend part',
+      'Contact with client',
+      'Working with whole team (FE, BE, Ui/UX, Testers, PM)',
+    ],
     link: 'https://www.freeportmetrics.com/',
     company: 'Freeport Metrics',
     techStack: [
@@ -23,9 +30,15 @@ const experiences: IExperienceExample[] = [
   {
     title: 'Junior Frontend Developer',
     date: '2022 MAR - 2022 NOV',
-    description: 'I was working as a sadasdasdasda',
     link: 'https://alterpage.pl/',
     company: 'Alter Page',
+    listDescription: [
+      'Complex webistes',
+      'Langing pages',
+      'Backend - frontend cooperation',
+      'Bug fixing',
+      'Contact with clients',
+    ],
     techStack: [
       'React',
       'Gatsby',
@@ -40,8 +53,14 @@ const experiences: IExperienceExample[] = [
   {
     title: 'Junior Frontend Developer',
     date: '2020 DEC - 2022 FEB',
-    description: 'I was working as a sadasdasdasda',
     link: 'https://bravenew.agency',
+    listDescription: [
+      'Complex websites',
+      'Landing pages',
+      'Bug fixing',
+      'Sales',
+      'Contact with client',
+    ],
     company: 'Brave New',
     techStack: [
       'JavaScript',
@@ -67,8 +86,9 @@ export default function Experience() {
             title={experience.title}
             date={experience.date}
             description={experience.description}
+            listDescription={experience.listDescription}
             link={experience.link}
-            company={experience.link}
+            company={experience.company}
             techStack={experience.techStack}
           />
         ))}
