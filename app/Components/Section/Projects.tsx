@@ -57,7 +57,7 @@ export default function Projects() {
       <h4 className='text-xl text-fontBright font-bold '>Projects</h4>
       <p className='mt-2'>
         It's a sample of projects I've been involved in, either creating from
-        scratch or collaborating with the entire team
+        scratch or collaborating with the entire team.
       </p>
 
       <div className='grid gap-4 mt-8'>
