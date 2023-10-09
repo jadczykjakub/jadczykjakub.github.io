@@ -81,7 +81,7 @@ export default function Experience() {
     <div id={Section.Experience} className='mt-8'>
       <h4 className='text-xl text-fontBright font-bold '>Experience</h4>
       <div className='grid gap-4 mt-4'>
-        {experiences.map((experience) => (
+        {experiences.map((experience, index) => (
           <ExperienceExample
             title={experience.title}
             date={experience.date}
@@ -90,6 +90,7 @@ export default function Experience() {
             link={experience.link}
             company={experience.company}
             techStack={experience.techStack}
+            key={index}
           />
         ))}
       </div>
