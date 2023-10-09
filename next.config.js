@@ -26,10 +26,6 @@ const nextConfig = {
         resourceQuery: { not: /url/ }, // exclude if *.svg?url
         use: ['@svgr/webpack'],
       },
-      this.output =  "export",
-      this.images = {
-        unoptimized: true
-      },
     );
 
     return config;
