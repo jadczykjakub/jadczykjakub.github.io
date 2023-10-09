@@ -61,13 +61,14 @@ export default function Projects() {
       </p>
 
       <div className='grid gap-4 mt-8'>
-        {projectExperienceExample.map((project) => (
+        {projectExperienceExample.map((project, index) => (
           <ExperienceExample
             title={project.title}
             description={project.description}
             link={project.link}
             techStack={project.techStack}
             img={project.img}
+            key={index}
           />
         ))}
       </div>
