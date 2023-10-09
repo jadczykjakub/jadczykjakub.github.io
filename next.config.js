@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true
-  },
+  
+
+  
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
@@ -18,13 +17,19 @@ const nextConfig = {
     config.module.rules.push(
       // Reapply the existing rule, but only for svg imports ending in ?url
       svgFileLoaderRule,
+      
+
       // Convert all other *.svg imports to React components
       {
         test: /\.svg$/i,
         issuer: /\.[jt]sx?$/,
         resourceQuery: { not: /url/ }, // exclude if *.svg?url
         use: ['@svgr/webpack'],
-      }
+      },
+      this.output =  "export",
+      this.images = {
+        unoptimized: true
+      },
     );
 
     return config;
