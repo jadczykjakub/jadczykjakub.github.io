@@ -22,7 +22,7 @@ export default function About() {
       <p className='mt-2'>
         Im a very social person and I have always enjoyed{' '}
         <span className='text-fontBright'>working with client</span>. Besides my
-        technical skills, I'm also working on improving my soft skills to
+        technical skills, I am also working on improving my soft skills to
         enhance my effectiveness in client interactions. I have a passion for
         foreign languages and am currently learning
         <span className='text-fontBright'> German</span>.

@@ -56,7 +56,7 @@ export default function Projects() {
     <div id={Section.Projects} className='mt-8'>
       <h4 className='text-xl text-fontBright font-bold '>Projects</h4>
       <p className='mt-2'>
-        It's a sample of projects I've been involved in, either creating from
+        It is a sample of projects I have been involved in, either creating from
         scratch or collaborating with the entire team.
       </p>
 
