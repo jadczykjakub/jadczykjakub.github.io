@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.link_active{
-  color: #e2e8f0;
+
+@layer components{
+  .link_active{
+    @apply text-linkActive
+  }
+
+  .link_active span{
+    @apply translate-x-2
+  }
 }
 
-.link_active span{
-  transform: translateX(5px);
-}
 

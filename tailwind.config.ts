@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         font: '#8b9dbb',
         fontBright: '#e2e8f0',
-        decoration: '#24d2d0'
+        decoration: '#24d2d0',
+        linkActive: '#e2e8f0'
       },
       backgroundColor: {
         body: '#0f172a',
