@@ -34,7 +34,7 @@ const projectExperienceExample: IExperienceExample[] = [
     img: '/sdp.png',
   },
   {
-    title: 'FCB&Themilkan',
+    title: 'FCB&Themilkman',
     link: 'https://fcbandthemilkman.pl/',
     description:
       'I co-created this website while working at Alterpage company. The website has a diverse range of videos and animated sections, complemented by a dedicated blog segment. All content is managed through a custom CMS',
